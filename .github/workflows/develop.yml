@@ -35,4 +35,4 @@ jobs:
       - name: Firebase Deploy
         run: |
            sudo npm install -g firebase-tools
-           firebase deploy --token AAAAf_A1EHI:APA91bGer9VSVN_pITkwUwSzvy6lttHUuyZMav54MnZAjNIn3yLwmkTL7-9sjvQd8N6A62yahv8IMlt_FkgG2XlOVrzv0Han4p2VQ3NCxnDmwNq961Q0tZwMto6HcA_czHLUSR5lAnEb
+           firebase deploy
