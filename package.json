@@ -1,0 +1,16 @@
+{
+  "name": "africkconnect-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build public/styles.css -o src/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.0.2",
+    "postcss": "^8.1.8",
+    "tailwindcss": "^2.0.1"
+  }
+}
