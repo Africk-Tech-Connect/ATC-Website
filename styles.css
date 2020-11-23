@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+.header {
+    background: linear-gradient(90deg, #C2B7EE, #EADEEC);
+}
+.bg-one {
+    background-color: #EDEFFB;
+}
+.bg-two {
+    background-color: #FDFDFD; 
+}
+body {
+    color: #261D56;
+    font-family: 'Nunito', sans-serif;
+}
+.divider {
+    color:  #261D56;
+}
+.logo {
+    font-family: 'Lobster', cursive;
+}
