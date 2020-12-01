@@ -8,22 +8,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <script src="./src/js/index.js"></script>
+    
 </head>
 <body class="w-full">
+    
     <header class="flex justify-between header  md:px-24 py-8">
         <div class="logo ml-12">
            <h4 class="font-medium text-lg logo">Africk Tech Connect</h4>
         </div>
         
         
-        <div class="navigation space-x-6 ml-24  hidden md:block" id="menu">
-            <a href="/" class="font-semibold hover:underline text-sm">Home</a>
-            <a href="/" class="font-semibold hover:underline text-sm">About</a>
-            <a href="/" class="font-semibold hover:underline text-sm">Blog</a>
-            <a href="/" class="font-semibold hover:underline text-sm pb-2">Products</a>
-            <a href="/" class="font-semibold hover:underline text-sm">Contact Us</a>
-        </div>
+        <ul class="navigation  space-y-3 md:space-y-0 md:space-x-6 md:ml-24  hidden md:flex" id="menu">
+            <li href="/" class="font-semibold hover:underline text-sm">Home</li>
+            <li href="/" class="font-semibold hover:underline text-sm">About</li>
+            <li href="/" class="font-semibold hover:underline text-sm">Blog</li>
+            <li href="/" class="font-semibold hover:underline text-sm pb-2">Products</li>
+            <li href="/" class="font-semibold hover:underline text-sm">Contact Us</li>
+        </ul>
 
         <div class="md:hidden md:mr-0 mr-12" id="burger">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"></path></svg>
@@ -101,7 +102,7 @@
             <div class="h-2 rounded-lg w-10 mt-2 mr-24 bg-afrkgreen"></div>
         </div>
         <div class="flex justify-between w-full">
-            <div class="md:w-72  mt-14 md:mt-24 flex flex-col justify-center  mb-10 h-full md:ml-60 ml-36">
+            <div class="md:w-72  mt-14 md:mt-24 flex flex-col justify-center pr-14 md:pr-0 mb-10 h-full md:ml-60 ml-14">
                 <span class="font-bold text-3xl">
                     Keep your budget<br>
                     up to date
@@ -112,7 +113,7 @@
                 </span>
                 <a href="" class="bg-afrkgreen text-white rounded-md px-5 w-44 py-3 font-semibold mt-8 ">Download the app</a>
             </div>
-            <div class="mr-20 hidden md:visible">
+            <div class="mr-20 hidden md:block">
                 <img src="./assets/africa.png" height="800" width="800">
             </div>
         </div>
@@ -205,6 +206,7 @@
             <a href="" class="bg-afrkgreen text-white rounded px-10 py-3 font-semibold">Get Started</a>
             <a href="" class="border border-afrkblue text-afrkblue rounded px-10 py-3 font-semibold">Request a demo</a>
         </div>
-    </footer>   
+    </footer>
+    <script src="./src/js/index.js"></script>   
 </body>
 </html>
